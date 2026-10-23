@@ -4,6 +4,9 @@
 
 This project analyzes hotel booking performance data spanning from 2010 to 2019 using big data analytics techniques. The analysis identifies key drivers of profitability and consumer behavior patterns, providing actionable insights for hotel management and destination marketers.
 
+<img width="1048" height="559" alt="Không có tiêu đề 2" src="https://github.com/user-attachments/assets/cf0ca62f-f5c7-4b2a-af7d-b2f8421b61ed" />
+
+
 ## 🎯 Objectives
 
 - Identify factors influencing hotel profitability and customer behavior
