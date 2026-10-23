@@ -75,36 +75,50 @@ DELETE FROM dbo.[Hotel Dataset] WHERE Age < 0;
 ## 📊 Key Findings
 
 ### 1. Gender & Discount Usage
+<img width="1282" height="570" alt="Không có tiêu đề 3" src="https://github.com/user-attachments/assets/fe17e3e6-ba3a-4d7e-8538-68b4473140b7" />
+
 - Balanced distribution: Female (50.25%) vs Male (49.75%)
 - Discount programs appeal universally to both genders
 
 ### 2. Booking Price & Gender
+<img width="1290" height="528" alt="Không có tiêu đề 4" src="https://github.com/user-attachments/assets/de9d7c03-9f7a-4fbb-b03f-138981ac3d94" />
+
 - Negligible difference between genders (209-219 currency units average)
 - Germany, Iceland, and Israel show highest average prices
 - Travel type (couples/families vs solo) influences spending
 
 ### 3. Top Destination Countries (by number of guests)
+<img width="1290" height="557" alt="Không có tiêu đề 5" src="https://github.com/user-attachments/assets/9f4de7a5-3eed-4439-a73e-460a860741e3" />
+
 1. Egypt: 13,826 visitors
 2. China: 13,628 visitors
 3. Nepal: 13,624 visitors
 
 ### 4. Highest Profit Margin Destinations
+<img width="1288" height="556" alt="Không có tiêu đề 7" src="https://github.com/user-attachments/assets/698ba0c8-8706-4bf1-bf6a-a4e1a5194284" />
+
 1. Nepal: 656.45
 2. New Zealand: 651.54
 3. Other destinations: 592.24 - 650+
 
 ### 5. Top Profit-Contributing Origin Countries
+<img width="1289" height="562" alt="Không có tiêu đề 6" src="https://github.com/user-attachments/assets/27c1952d-e196-4e0f-8614-569ae2673107" />
+
 1. Thailand: 2.305
 2. Indonesia: 2.273
 3. Singapore: 2.267
 4. Malaysia: 2.265
 
 ### 6. Profit Trends (2010-2019)
+<img width="1220" height="511" alt="Không có tiêu đề 9" src="https://github.com/user-attachments/assets/1e6330b6-ba79-4857-b17a-c842759832ea" />
+
 - Consistent growth trajectory year-over-year
 - Peak profit margin: 160.70 (August 2019)
 - Dynamic pricing strategy observed during peak/low seasons
 
 ### 7. Forecast (2020-2024)
+<img width="1190" height="638" alt="Không có tiêu đề 10" src="https://github.com/user-attachments/assets/5402cd7b-4919-43c1-a5d8-07bf0c90965d" />
+
 - Projected profit growth: 153 (early 2020) → 183 (late 2024)
 - 95% confidence interval with widening fluctuation range (135-230)
 - Indicates strong customer loyalty and improved distribution channels
@@ -130,16 +144,16 @@ DELETE FROM dbo.[Hotel Dataset] WHERE Age < 0;
 ```
 .
 ├── README.md                      # This file
-├── hotel_analysis.sql             # SQL queries for data cleaning
-├── tableau_dashboard.twbx         # Tableau workbook with visualizations
-└── cleaned_data.csv               # Processed dataset
+├── Microsoft SQL server.sql       # SQL queries for data cleaning
+├── tableau.twb                    # Tableau workbook with visualizations
+└── Hotel Dataset.xlsx             # Raw dataset
 ```
 
 ## 🚀 How to Use
 
-1. **Review SQL Queries:** Check `hotel_analysis.sql` to understand data cleaning process
-2. **Access Cleaned Data:** Use `cleaned_data.csv` for the processed dataset (66,535 records)
-3. **Explore Visualizations:** Open `tableau_dashboard.twbx` in Tableau Public/Desktop to view interactive charts and dashboards
+1. **Review SQL Queries:** Check `Microsoft SQL server.sql` to understand data cleaning process
+2. **Access Cleaned Data:** Use `Hotel Dataset.xlsx` for the processed dataset (66,535 records)
+3. **Explore Visualizations:** Open `tableau.twb` in Tableau Public/Desktop to view interactive charts and dashboards
 
 ## 📝 Assignment Details
 
